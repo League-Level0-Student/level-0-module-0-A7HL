@@ -10,16 +10,27 @@ public class FlamingNinjaStar {
 		int flameSize = 130;		//the length of the flaming arms
 		
 		// Make a new robot, and set it's pen down.
-
+		Robot rob = new Robot();
+		rob.penDown();
 		// Set the robot speed to 100
-		
+		rob.setSpeed(100);
 		// Set the robot window size to 800 x 800
-
+		rob.setWindowSize(800,800);
 		//  COUNT. Make another int variable to count how many times the loop has repeated
 		//         Set its start value to zero.
-		
+		int count = 0;
 	       //  LOOP. Start a while loop to repeat all of the code below ONE time (we will change this later)
-
+		while (count <25) {
+			rob.turn (360/8);
+			rob.move (64);
+			rob.turn(-40);
+			rob.move(130);
+			rob.turn(170);
+			rob.move(130);
+			rob.turn(64);
+			rob.move(200);
+			count+=1;
+		}
 			   // TURN RIGHT     Turn the robot 1/8 of a circle (hint: 360 degrees will turn a full circle)
 		
 			   // MOVE           Move the robot 64 pixels
@@ -45,7 +56,8 @@ public class FlamingNinjaStar {
 		
 		// COLOR  Change the Robot's pen color so that the flame is a different color to the rest of the star.
 		//        Run the program again. Check the second picture in the recipe.
-
+		//rob.penColor(color.)
+		//NOT FINISHED
 		// LOOP   When you have one arm looking right, change your loop to repeat 25 times and run the program.
 		
 	}
