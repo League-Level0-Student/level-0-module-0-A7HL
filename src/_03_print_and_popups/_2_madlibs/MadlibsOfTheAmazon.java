@@ -1,21 +1,28 @@
 package _03_print_and_popups._2_madlibs;
 
+import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
 
 public class MadlibsOfTheAmazon {
-	
+	JButton buttonOK = new JButton();
+	JTextField inputField = new JTextField();
 	public static void main(String[] args) {
 		// Put this sentence in a pop up:
 		String prompt =  "If you find yourself having to cross a piranha-infested river, here's how to do it...";
 		
+		
+		
 		// Get the player to enter an adjective
-
+		
 		// Get the player to enter a type of liquid
-
+		
 		// Get the player to enter a body part
 
 		// Get the player to enter a verb
-
+		
 		// Get the player to enter a place
 
 		// The story below has has been written as a group of Strings joined together by + signs.
@@ -35,5 +42,12 @@ public class MadlibsOfTheAmazon {
 		
 		// If you want to write your own Madlib story, just change the story variable and ask the player different questions.
 
+	}
+
+	public String getAdjective() {
+		JPanel panel = new JPanel ();
+		panel.add( new JLabel ("enter an adjective"));
+		panel.add(buttonOK);
+		panel.add(inputField);
 	}
 }

@@ -24,9 +24,13 @@ public class FlamingNinjaStar {
 			rob.turn (360/8);
 			rob.move (64);
 			rob.turn(-40);
-			rob.move(130);
+			rob.setPenColor(Color.yellow);
+			rob.move (130);
+			rob.setPenColor(Color.black);
 			rob.turn(170);
+			rob.setPenColor(Color.yellow);
 			rob.move(130);
+			rob.setPenColor(Color.black);
 			rob.turn(64);
 			rob.move(200);
 			count+=1;
@@ -57,7 +61,6 @@ public class FlamingNinjaStar {
 		// COLOR  Change the Robot's pen color so that the flame is a different color to the rest of the star.
 		//        Run the program again. Check the second picture in the recipe.
 		//rob.penColor(color.)
-		//NOT FINISHED
 		// LOOP   When you have one arm looking right, change your loop to repeat 25 times and run the program.
 		
 	}
