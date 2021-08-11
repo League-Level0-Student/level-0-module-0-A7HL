@@ -47,6 +47,7 @@ public class MadlibsOfTheAmazon {
 		String.format("you do, if you have an open wound, try to find another way to get\n") +
 		String.format("back to the %s. Good luck!", place);
 		
+		JOptionPane.showMessageDialog(null,story);
 		
 		
 		// Make a pop-up that contains the final story. The \n escape characters add line breaks to the story. 
