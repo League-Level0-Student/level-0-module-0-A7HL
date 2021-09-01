@@ -26,17 +26,15 @@ public class WorldDomination {
 		frame.setVisible(true);
 		frame.pack();
 		// 2. If they say "yes", tell them they will rule the world.
-		String correct =
-				String.format ("Congratulations!!! You will rule the world!");
-		if (input.equals(yes)){
-		JOptionPane.showMessageDialog(null,correct);
-		}
-		// 3. Otherwise, tell them to sign up for classes at The League.
-		String wrong =
-				String.format ("Please sign up for classes at The League");
-		//else 
-		//JOptionPane.showMessageDialog (null,wrong);	
-			
-	}
-}
+		 String correct =
+	                String.format ("Congratulations!!! You will rule the world!");
+	        String wrong =
+	                String.format("Please sign up for classes at The League");
+	        if (input.equals("yes")|| input.equals(("Yes"))){
+	            JOptionPane.showMessageDialog(null,correct);
+	        }else {
+	            JOptionPane.showMessageDialog(null,wrong);
+	        }
+	        
+	    }}
 
