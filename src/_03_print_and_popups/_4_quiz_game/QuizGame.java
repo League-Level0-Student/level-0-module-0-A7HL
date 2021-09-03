@@ -33,13 +33,13 @@ public class QuizGame {
 		
 		// MAKE MORE QUESTIONS. Ask more questions by repeating the above 
 				// Option: Subtract a point from their score for a wrong answer
-		String input1 = JOptionPane.showInputDialog(null,"What's 993-7");
+		String input2 = JOptionPane.showInputDialog(null,"What's 993-7");
 		
 		 String correct1 =
 	                "CORRECT";
 	        String wrong1 =
 	                "WRONG";
-	                if(input.equals("986")) {
+	                if(input2.equals("986")) {
 	                    JOptionPane.showMessageDialog(null,correct1);
 	                    score +=-1;
 	                }else {

@@ -7,14 +7,15 @@ public class AwesomeOrNot {
 	// 1. Make a main method that includes everything below
 		
 	
-		Random ran = new Random();    //This will be used below to make a random number. 
-		
+	//This will be used below to make a random number. 
+		String greeting = "Hello world!";
 		// 2. Make a variable that will hold a random whole number
-		
+		Random ran = new Random(); 
 		// 3. Set your variable equal to a positive number less than 4 using     ran.nextInt(4); 
+		int nxt = ran.nextInt(4);
 		
 		// 3. Print your variable to the console
-		
+
 		// 4. Get the user to enter something that they think is awesome
 	
 		// 5. If your variable is  0
